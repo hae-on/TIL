@@ -9,7 +9,7 @@ git push
 
 - 설정 변경하기
 
-$ git config --global user.name "id"
+$ git config --global user.name "id" <br />
 $ git config --global user.email "email"
 
 - 확인하기
