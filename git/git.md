@@ -1,7 +1,7 @@
 ### git 기본
 
 `git init` <br />
-`git add.` <br />
+`git add 파일명('.' -> 현재 디렉토리 중 변경된 파일들만 add)` <br />
 `git commit -m "커밋 메세지"` <br />
 `git push`
 
