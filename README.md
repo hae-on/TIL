@@ -6,6 +6,7 @@
 
 ### Git
 - [git 기본과 설정 변경](https://github.com/hae-on/TIL/tree/master/git)
+- [브랜치 기본](https://github.com/hae-on/TIL/blob/master/git/branch.md)
 
 
 ### Tip
