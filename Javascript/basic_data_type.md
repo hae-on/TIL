@@ -78,3 +78,26 @@ false;
 20 >= 20;
 true;
 ```
+
+### 불 부정 연산자
+
+```javascript
+!true -> false;
+!false -> true;
+```
+
+### 불 논리합/논리곱 연산자
+
+| 연산자 | 설명                                 |
+| ------ | ------------------------------------ |
+| &&     | 논리곱 (양쪽 변 모두 true일 때 true) |
+| \|\|   | 논리합 (한쪽만 true여도 true)        |
+
+## 자료형 검사
+
+`typeof(자료)`
+
+```javascript
+typeof('자료') -> 'string'
+typeof(123) -> 'number'
+```
