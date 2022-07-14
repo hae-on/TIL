@@ -13,9 +13,14 @@
 - [자료형](https://github.com/hae-on/TIL/blob/master/Python/python_datatype.md)
 - [조건문](https://github.com/hae-on/TIL/blob/master/Python/if.md)
 - [반복문](https://github.com/hae-on/TIL/blob/master/Python/loop.md)
+- [함수](https://github.com/hae-on/TIL/blob/master/Python/function.md)
+- [데이터 구조](https://github.com/hae-on/TIL/blob/master/Python/data_structure.md)
 
 ### Javascript
 - [기본 자료형](https://github.com/hae-on/TIL/blob/master/Javascript/basic_data_type.md)
+- [자료형 변환](https://github.com/hae-on/TIL/blob/master/Javascript/data_type%20_conversion.md)
+- [상수와 변수](https://github.com/hae-on/TIL/blob/master/Javascript/constants_and_variables.md)
+- [조건문](https://github.com/hae-on/TIL/blob/master/Javascript/conditional.md)
 
 ### Codeup
 - [codeup 100제](https://github.com/hae-on/TIL/tree/master/CodeUP)
