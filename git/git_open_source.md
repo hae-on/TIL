@@ -31,8 +31,8 @@ commit message "수정의 이유를 작성한다" <br>
 
 ## 다른(사람) GitHub 계정과의 충돌방지
 
-$ git config --global --unset credential.helper
-$ git config --system --unset credential.helper
+git config --global --unset credential.helper <br>
+git config --system --unset credential.helper
 
 ## 나노 편집기 사용하기
 
@@ -46,7 +46,7 @@ git config --global core_editor nano
 ## Git 추가 명령어
 
 - add 명령 취소: git reset
-- commit 명령 취소: git reset --hard HEAD~숫자 (HEAD~1은 가장 위에서 첫번째 내용 삭제)
+- commit 명령 취소: git reset --hard HEAD\~숫자 (HEAD\~1은 가장 위에서 첫번째 내용 삭제)
 - 라이센스 서명 commit: git commit -sm "커밋 내용"
 - commit 수정: git commit --amend
 
@@ -86,5 +86,5 @@ git config --global core_editor nano
 
 3. 프로젝트의 최초 commit부터 3개 찾아보기
 
-- git log --oneline --reverse | head -3
+- git log --oneline --reverse | head -3 <br>
   (git log --oneline --reverse -3하면 최근 3개가 뒤집어서 출력)
