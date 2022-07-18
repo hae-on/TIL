@@ -7,6 +7,7 @@
 ### Git
 - [git 기본과 설정 변경](https://github.com/hae-on/TIL/tree/master/git)
 - [브랜치 기본](https://github.com/hae-on/TIL/blob/master/git/branch.md)
+- -[git 오픈소스 강의](https://github.com/hae-on/TIL/blob/master/git/git_open_source.md)
 
 ### Python
 - [기초](https://github.com/hae-on/TIL/blob/master/Python/python_basic.md)
@@ -15,6 +16,7 @@
 - [반복문](https://github.com/hae-on/TIL/blob/master/Python/loop.md)
 - [함수](https://github.com/hae-on/TIL/blob/master/Python/function.md)
 - [데이터 구조](https://github.com/hae-on/TIL/blob/master/Python/data_structure.md)
+- [에러와 예외처리](https://github.com/hae-on/TIL/blob/master/Python/error_exception_handling.md)
 
 ### Javascript
 - [기본 자료형](https://github.com/hae-on/TIL/blob/master/Javascript/basic_data_type.md)
