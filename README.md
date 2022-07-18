@@ -7,7 +7,7 @@
 ### Git
 - [git 기본과 설정 변경](https://github.com/hae-on/TIL/tree/master/git)
 - [브랜치 기본](https://github.com/hae-on/TIL/blob/master/git/branch.md)
-- -[git 오픈소스 강의](https://github.com/hae-on/TIL/blob/master/git/git_open_source.md)
+- [git 오픈소스 강의](https://github.com/hae-on/TIL/blob/master/git/git_open_source.md)
 
 ### Python
 - [기초](https://github.com/hae-on/TIL/blob/master/Python/python_basic.md)
