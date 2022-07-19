@@ -17,6 +17,7 @@
 - [함수](https://github.com/hae-on/TIL/blob/master/Python/function.md)
 - [데이터 구조](https://github.com/hae-on/TIL/blob/master/Python/data_structure.md)
 - [에러와 예외처리](https://github.com/hae-on/TIL/blob/master/Python/error_exception_handling.md)
+- [객체](https://github.com/hae-on/TIL/blob/master/Python/OOP.md)
 
 ### Javascript
 - [기본 자료형](https://github.com/hae-on/TIL/blob/master/Javascript/basic_data_type.md)
@@ -24,6 +25,10 @@
 - [상수와 변수](https://github.com/hae-on/TIL/blob/master/Javascript/constants_and_variables.md)
 - [조건문](https://github.com/hae-on/TIL/blob/master/Javascript/conditional.md)
 - [배열](https://github.com/hae-on/TIL/blob/master/Javascript/array.md)
+- [함수](https://github.com/hae-on/TIL/blob/master/Javascript/function.md)
+- [객체](https://github.com/hae-on/TIL/blob/master/Javascript/object.md)
+
+### SWEA
 
 ### Codeup
 - [codeup 100제](https://github.com/hae-on/TIL/tree/master/CodeUP)
