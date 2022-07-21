@@ -27,8 +27,11 @@
 - [배열](https://github.com/hae-on/TIL/blob/master/Javascript/array.md)
 - [함수](https://github.com/hae-on/TIL/blob/master/Javascript/function.md)
 - [객체](https://github.com/hae-on/TIL/blob/master/Javascript/object.md)
+- [예외 처리](https://github.com/hae-on/TIL/blob/master/Javascript/exception.md)
 
 ### SWEA
+- [D1](https://github.com/hae-on/TIL/tree/master/SWEA/D1)
+- [D2](https://github.com/hae-on/TIL/tree/master/SWEA/D2)
 
 ### Codeup
 - [codeup 100제](https://github.com/hae-on/TIL/tree/master/CodeUP)
