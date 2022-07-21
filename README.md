@@ -24,7 +24,7 @@
 - [자료형 변환](https://github.com/hae-on/TIL/blob/master/Javascript/data_type%20_conversion.md)
 - [상수와 변수](https://github.com/hae-on/TIL/blob/master/Javascript/constants_and_variables.md)
 - [조건문](https://github.com/hae-on/TIL/blob/master/Javascript/conditional.md)
-- [반복문)(https://github.com/hae-on/TIL/blob/master/Javascript/loop.md)
+- [반복문](https://github.com/hae-on/TIL/blob/master/Javascript/loop.md)
 - [배열](https://github.com/hae-on/TIL/blob/master/Javascript/array.md)
 - [함수](https://github.com/hae-on/TIL/blob/master/Javascript/function.md)
 - [객체](https://github.com/hae-on/TIL/blob/master/Javascript/object.md)
