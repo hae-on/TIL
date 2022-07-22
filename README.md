@@ -35,6 +35,7 @@
 - [객체](https://github.com/hae-on/TIL/blob/master/Javascript/object.md)
 - [문서 객체 자료](https://github.com/hae-on/TIL/blob/master/Javascript/document_object_model.md)
 - [예외 처리](https://github.com/hae-on/TIL/blob/master/Javascript/exception.md)
+- [클래스](https://github.com/hae-on/TIL/blob/master/Javascript/class.md)
 
 ### SWEA
 
