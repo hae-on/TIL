@@ -38,8 +38,10 @@
 - [클래스](https://github.com/hae-on/TIL/blob/master/Javascript/class.md)
 
 ### 모던 JS 튜토리얼
+- [Part 1 실습](https://github.com/hae-on/TIL/tree/master/ModernJS/Part1/Task)
 
-
+### 백준
+- [백준 문제](https://github.com/hae-on/TIL/tree/master/Baekjoon)
 
 ### SWEA
 
