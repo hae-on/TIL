@@ -1,3 +1,4 @@
+#pypy3 제출
 import sys
 sys.stdin = open("input.txt")
 
@@ -15,10 +16,11 @@ for _ in range(k):
     x -= 1
     y -= 1
 
-sum_ = 0
+    sum_ =0
 
-for r in range(i, x+1):
-    for c in range(j, y+1):
-        sum_ += list_[r][c]
+    for r in range(i, x+1):
+        for c in range(j, y+1):
+            sum_ += list_[r][c]
 
     print(sum_)
+
