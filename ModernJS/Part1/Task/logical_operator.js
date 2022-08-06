@@ -34,4 +34,23 @@ if(age<14 || age>90){
 if (-1 || 0) alert( 'first' );
 if (-1 && 0) alert( 'second' );
 if (null || -1 && 1) alert( 'third' );
-//
+//first, third
+
+// 9. 프롬프트(prompt) 대화상자를 이용해 간이 로그인 창을 구현해보세요.
+let userName = prompt('이름을 입력해주세요', '')
+
+if(userName == 'Admin'){
+  let password = prompt('비밀번호를 입력해주세요.', '')
+
+  if (password == 'TheMaster'){
+    alert('환영합니다.')
+  }else if(password == '' || password == null){
+    alert('취소되었습니다.')
+  }else{
+    alert('인증에 실패하였습니다.')
+  }
+} else if (userName == '' || userName == null){
+  alert('취소되었습니다.')
+} else{
+  alert('인증되지 않은 사용자입니다.')
+}
