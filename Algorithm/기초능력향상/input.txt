@@ -1,5 +1,2 @@
-4
-Baha enter
-Askar enter
-Baha leave
-Artem enter
+7 1 6 2 3 0 5 9 4 8
+7 1 6 2 3 0 5 9 4 8
