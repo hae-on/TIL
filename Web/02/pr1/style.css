@@ -1,0 +1,42 @@
+/* 아래에 CSS를 작성해주세요. */
+.title {
+  text-align: center;
+}
+
+.sub_title {
+  font-size: 12px;
+}
+
+.cards {
+  width: 900px;
+  display: flex;
+  margin-left: 3em;
+}
+
+.card {
+  margin-left: 1.3em;
+}
+
+.card_img {
+  width: 300px;
+  border-radius: 15px;
+}
+
+.category {
+  color: gray;
+  font-size: 0.7rem;
+  margin-bottom: 0;
+}
+
+.card_title {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.info {
+  color: gray;
+  display: inline;
+  font-size: 0.7rem;
+}
