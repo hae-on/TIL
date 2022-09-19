@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input</title>
+    <style>
+      .container {
+        display: flex;
+        justify-content: center;
+        width: 500px;
+        height: 500px;
+        border: solid 1px;
+        border-radius: 1rem;
+      }
+
+      .input-form {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .input-text {
+        margin-bottom: 10px;
+        font-size: 1.3rem;
+      }
+
+      .input-box {
+        width: 12rem;
+        height: 2rem;
+        padding-left: 0.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="container">
+      <form class="input-form" action="#">
+        <label class="input-text" for="input-text">내용을 입력해주세요</label>
+        <input class="input-box" type="text" />
+        <p class="content"></p>
+      </form>
+    </section>
+    <script>
+      const inputBox = document.querySelector(".input-box");
+
+      inputBox.addEventListener("input", function (e) {
+        const content = document.querySelector(".content");
+        content.innerHTML = e.target.value;
+      });
+    </script>
+  </body>
+</html>

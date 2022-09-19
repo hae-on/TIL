@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal</title>
+    <style>
+      .container {
+        margin-top: 2rem;
+      }
+
+      .open-btn,
+      .modal-btn {
+        display: block;
+        margin: 0 auto;
+        width: 7rem;
+        height: 2rem;
+        cursor: pointer;
+      }
+
+      .modal-container {
+        position: absolute;
+        display: none;
+        top: 10rem;
+        left: 25rem;
+        width: 400px;
+        height: 300px;
+        padding: 1rem;
+        background-color: azure;
+        border-radius: 1rem;
+      }
+
+      .modal-title {
+        text-align: center;
+        font-size: 1.4rem;
+      }
+
+      .modal-btn {
+        margin-top: 5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="container">
+      <button class="open-btn">나를 눌러봐!!!!!!</button>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error qui
+        officia eos molestiae ipsam inventore aspernatur voluptas, dicta odio
+        mollitia itaque ab labore ea quisquam voluptates repudiandae officiis
+        corrupti sapiente reiciendis nesciunt nihil tempore veniam? Veniam rerum
+        reiciendis officia facilis id deleniti, illum molestias recusandae
+        facere nesciunt ea nihil, accusamus atque dicta cum sed esse fugiat
+        adipisci unde eligendi vel, nam voluptatibus. Eos excepturi esse
+        sapiente odio rem ullam necessitatibus veniam exercitationem accusantium
+        sequi quaerat pariatur ex reiciendis nisi dolorum illum, laudantium
+        iusto dolorem repellat ipsa voluptatibus eius consectetur porro. Vero
+        accusantium optio odio blanditiis atque quisquam praesentium assumenda
+        magnam, amet exercitationem rem est, similique eaque voluptatum
+        obcaecati tenetur non mollitia nesciunt! Dolor minus error quisquam
+        accusamus dolorem amet rem maxime fugiat. Sint possimus recusandae nulla
+        quis quasi sit, modi eveniet repudiandae earum. Quasi officiis error
+        provident tenetur quibusdam tempore assumenda voluptatum debitis fugit
+        perspiciatis nisi nesciunt modi iste laboriosam doloremque, iure vitae
+        illum. A, eligendi quisquam aperiam architecto voluptatem expedita
+        tenetur, facere ullam eveniet esse totam quo error blanditiis nam
+        ducimus vero, nihil placeat corporis similique iste laborum. Rerum
+        asperiores alias, est porro ducimus et, magnam doloremque dolores
+        officiis blanditiis harum reprehenderit incidunt nisi recusandae
+        delectus iure cumque? Placeat voluptatibus odit obcaecati provident
+        dicta exercitationem consequuntur. Provident fugit harum eligendi ipsa
+        cumque accusamus quam? Vero nulla doloribus commodi et non reiciendis
+        molestias necessitatibus suscipit voluptate? Earum laboriosam minima
+        assumenda optio, eos placeat quos, sequi dignissimos ipsa, expedita
+        rerum reprehenderit deserunt. Ut, eum debitis quos minima pariatur esse
+        iusto distinctio voluptatum aut, quo dolorem ipsa at libero fuga vero
+        est facere nemo vitae eius qui unde perferendis. Dolore soluta
+        aspernatur architecto quis minus incidunt laboriosam eaque. Enim magnam
+        iusto rerum perspiciatis placeat. Repellat architecto, saepe
+        exercitationem, deleniti reiciendis harum tenetur, iure eos optio
+        ratione accusamus ipsum iste nemo enim. Minus quia, mollitia, id harum
+        veniam voluptates dolore voluptatem ipsum illo autem voluptas?
+        Distinctio provident sunt, deleniti at modi natus qui nisi, dolore fuga
+        mollitia ullam fugit eveniet, nulla quo voluptate officia! Corrupti
+        quasi magnam unde nulla velit temporibus sit, totam excepturi eligendi
+        deserunt provident, aperiam neque? Veniam quo accusamus aspernatur
+        beatae veritatis accusantium nihil sit quos ab dolores itaque eos, et
+        laudantium libero non aliquid. Ea, accusantium aperiam laborum earum
+        consectetur illum, non sint atque obcaecati iusto doloribus repudiandae
+        sed quaerat iure fuga adipisci deserunt laboriosam tenetur corporis,
+        incidunt quae. Laboriosam nobis ab beatae, molestias, voluptate
+        asperiores pariatur modi quis at officiis, recusandae distinctio quaerat
+        rem incidunt minima dolores dicta ea ex. Fugit reprehenderit nesciunt
+        itaque totam? Nulla saepe aut inventore delectus voluptate repudiandae
+        quibusdam maxime quisquam alias unde nisi, veritatis libero sit maiores
+        dignissimos asperiores vel facilis mollitia. Laboriosam ut est deleniti
+        repellat culpa vel? Assumenda, temporibus eius officia atque cumque
+        repellat eum, itaque explicabo voluptas dignissimos accusamus quidem
+        debitis nemo molestiae minus accusantium omnis ratione quos incidunt?
+        Ratione quasi asperiores provident obcaecati vitae placeat nemo saepe
+        laboriosam numquam itaque delectus id architecto nulla in voluptates,
+        quisquam adipisci, molestiae repellat. Ducimus optio aliquam nihil
+        repudiandae excepturi sed minus in.
+      </p>
+    </section>
+    <section class="modal-container">
+      <p class="modal-title">안녕하세요 저는 모달이에용</p>
+      <p class="modal-content">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, dolor
+        facilis error nemo debitis, laborum tempora quam corrupti quae a iusto
+        animi omnis excepturi iure aut! Est nostrum cupiditate atque. 디자인이
+        너무 구려서 죄송해요
+      </p>
+      <button class="modal-btn">눌러보시지?</button>
+    </section>
+    <script>
+      const container = document.querySelector(".container");
+      const modal = document.querySelector(".modal-container");
+      const openBtn = document.querySelector(".open-btn");
+      const modalBtn = document.querySelector(".modal-btn");
+
+      openBtn.addEventListener("click", function () {
+        modal.style.display = "block";
+      });
+
+      modalBtn.addEventListener("click", function () {
+        modal.style.display = "none";
+      });
+    </script>
+  </body>
+</html>
