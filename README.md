@@ -40,6 +40,9 @@
 ### 모던 JS 튜토리얼
 - [Part 1 실습](https://github.com/hae-on/TIL/tree/master/ModernJS/Part1/Task)
 
+### 오늘의 질문
+- [질문 목록](https://github.com/hae-on/TIL/tree/master/%EC%98%A4%EB%8A%98%EC%9D%98%EC%A7%88%EB%AC%B8)
+
 ### 백준
 - [백준 문제](https://github.com/hae-on/TIL/tree/master/Baekjoon)
 
