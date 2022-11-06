@@ -25,7 +25,7 @@
 
 ### DB
 
--[DB](https://github.com/hae-on/TIL/tree/master/DB)
+- [DB](https://github.com/hae-on/TIL/tree/master/DB)
 
 ### Javascript
 
