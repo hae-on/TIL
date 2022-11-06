@@ -23,6 +23,10 @@
 - [객체](https://github.com/hae-on/TIL/blob/master/Python/OOP.md)
 - [심화](https://github.com/hae-on/TIL/blob/master/Python/deepening_python.md)
 
+### DB
+
+-[DB](https://github.com/hae-on/TIL/tree/master/DB)
+
 ### Javascript
 
 - [기본 자료형](https://github.com/hae-on/TIL/blob/master/Javascript/basic_data_type.md)
