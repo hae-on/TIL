@@ -23,6 +23,10 @@
 - [객체](https://github.com/hae-on/TIL/blob/master/Python/OOP.md)
 - [심화](https://github.com/hae-on/TIL/blob/master/Python/deepening_python.md)
 
+### DB
+
+- [DB](https://github.com/hae-on/TIL/tree/master/DB)
+
 ### Javascript
 
 - [기본 자료형](https://github.com/hae-on/TIL/blob/master/Javascript/basic_data_type.md)
@@ -39,6 +43,9 @@
 
 ### 모던 JS 튜토리얼
 - [Part 1 실습](https://github.com/hae-on/TIL/tree/master/ModernJS/Part1/Task)
+
+### 오늘의 질문
+- [질문 목록](https://github.com/hae-on/TIL/tree/master/%EC%98%A4%EB%8A%98%EC%9D%98%EC%A7%88%EB%AC%B8)
 
 ### 백준
 - [백준 문제](https://github.com/hae-on/TIL/tree/master/Baekjoon)
